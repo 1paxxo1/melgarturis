@@ -1,8 +1,13 @@
 :root{
     font-family: Arial, Helvetica, sans-serif;
+     background-color: rgb(255, 255, 255);
 } 
-.logo{
-    width: 100px;
+
+main {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
 }
 #contenedor_encabezado{
     width: 100%;
@@ -47,4 +52,10 @@ font-size: 15px;
 .card{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 5px;
+}
+#tarjetas_comida{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    
 }
